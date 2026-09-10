@@ -32,7 +32,7 @@ def estimatePoseSingleMarkers(corners, marker_size, mtx, distortion):
         ],
         dtype=np.float32,
     )
-    
+
     trash = []
     rvecs = []
     tvecs = []

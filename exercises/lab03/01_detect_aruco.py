@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 
 
 def main():
-    img = cv2.imread(str(Path(__file__).parent / "data" / "aruco.jpg"))
+    img = cv2.imread(str(Path(__file__).parent / "aruco.jpg"))
     img = max_resize(img, max_width=1024)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
